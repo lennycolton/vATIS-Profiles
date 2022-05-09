@@ -107,6 +107,49 @@
           "Altitude": 90
         }
       ]
+    },
+    {
+      "Name": "St. Athan",
+      "Identifier": "EGSY",
+      "Contractions": [
+        {
+          "String": "ST",
+          "Spoken": "SAINT"
+        }
+      ],
+      "AtisFrequency": 30550,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "25",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "07",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
     }
   ]
 }

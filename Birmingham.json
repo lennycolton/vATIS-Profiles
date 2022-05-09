@@ -1,0 +1,43 @@
+{
+  "Name": "Birmingham",
+  "Composites": [
+    {
+      "Name": "Birmingham",
+      "Identifier": "EGBB",
+      "Contractions": [],
+      "AtisFrequency": 36025,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "33",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BIRMINGHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 33. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "15",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BIRMINGHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 15. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

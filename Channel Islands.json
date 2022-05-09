@@ -1,0 +1,143 @@
+{
+  "Name": "Channel Islands",
+  "Composites": [
+    {
+      "Name": "Jersey",
+      "Identifier": "EGJJ",
+      "Contractions": [],
+      "AtisFrequency": 34675,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "26",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "JERSEY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 26. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "08",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "JERSEY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 08. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 55
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 60
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 65
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 70
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 75
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 80
+        }
+      ]
+    },
+    {
+      "Name": "Guernsey",
+      "Identifier": "EGJB",
+      "Contractions": [],
+      "AtisFrequency": 18900,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "27",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "GUERNSEY INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT. TIME [TIME] RUNWAY IN USE 27. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]."
+        },
+        {
+          "Name": "09",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "GUERNSEY INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT. TIME [TIME] RUNWAY IN USE 09. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 55
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 60
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 65
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 70
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 75
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 80
+        }
+      ]
+    }
+  ]
+}

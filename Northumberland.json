@@ -1,0 +1,112 @@
+{
+  "Name": "Northumberland",
+  "Composites": [
+    {
+      "Name": "Newcastle",
+      "Identifier": "EGNT",
+      "Contractions": [],
+      "AtisFrequency": 18375,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "25",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. THRESHOLD ELEVATION 239 FEET."
+        },
+        {
+          "Name": "07",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. THRESHOLD ELEVATION 239 FEET."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    },
+    {
+      "Name": "Teesside",
+      "Identifier": "EGNV",
+      "Contractions": [],
+      "AtisFrequency": 32375,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "23",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 23. [WX]. ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
+        },
+        {
+          "Name": "05",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 05. [WX]. ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

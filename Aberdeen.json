@@ -1,0 +1,43 @@
+{
+  "Name": "Aberdeen",
+  "Composites": [
+    {
+      "Name": "Aberdeen",
+      "Identifier": "EGPD",
+      "Contractions": [],
+      "AtisFrequency": 21850,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "34",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "ABERDEEN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 34. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "16",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "ABERDEEN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 16. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

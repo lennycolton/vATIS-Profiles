@@ -1,0 +1,95 @@
+{
+  "Name": "Warton",
+  "Composites": [
+    {
+      "Name": "Blackpool",
+      "Identifier": "EGNH",
+      "Contractions": [],
+      "AtisFrequency": 27200,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "28",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 28. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "10",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 10. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "31",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 31. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "13",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 13. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Warton",
+      "Identifier": "EGNO",
+      "Contractions": [],
+      "AtisFrequency": 21725,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "25",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "WARTON INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "07",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "WARTON INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

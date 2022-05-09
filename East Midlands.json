@@ -1,0 +1,43 @@
+{
+  "Name": "East Midlands",
+  "Composites": [
+    {
+      "Name": "East Midlands",
+      "Identifier": "EGNX",
+      "Contractions": [],
+      "AtisFrequency": 22675,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "27",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 27. [WX]."
+        },
+        {
+          "Name": "09",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 09. [WX]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

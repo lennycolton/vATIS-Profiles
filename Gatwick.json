@@ -1,0 +1,105 @@
+{
+  "Name": "Gatwick",
+  "Composites": [
+    {
+      "Name": "Gatwick",
+      "Identifier": "EGKK",
+      "Contractions": [
+        {
+          "String": "26L",
+          "Spoken": "TWO SIX LEFT"
+        },
+        {
+          "String": "26R",
+          "Spoken": "TWO SIX RIGHT"
+        },
+        {
+          "String": "08L",
+          "Spoken": "ZERO EIGHT LEFT"
+        },
+        {
+          "String": "08R",
+          "Spoken": "ZERO EIGHT RIGHT"
+        }
+      ],
+      "AtisFrequency": 34225,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "26L",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26L. ILS APPROACH TO BE EXPECTED. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "08R",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08R. ILS APPROACH TO BE EXPECTED. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "26R",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26R. RNP APPROACH TO BE EXPECTED. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "08L",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08L. RNP APPROACH TO BE EXPECTED. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    }
+  ]
+}

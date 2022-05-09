@@ -1,0 +1,43 @@
+{
+  "Name": "Prestwick",
+  "Composites": [
+    {
+      "Name": "Prestwick",
+      "Identifier": "EGPK",
+      "Contractions": [],
+      "AtisFrequency": 21125,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "30",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 30. [WX]."
+        },
+        {
+          "Name": "12",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 12. [WX]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

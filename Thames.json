@@ -1,0 +1,219 @@
+{
+  "Name": "Thames",
+  "Composites": [
+    {
+      "Name": "City",
+      "Identifier": "EGLC",
+      "Contractions": [],
+      "AtisFrequency": 36350,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "27",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 27. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "09",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 09. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    },
+    {
+      "Name": "Biggin Hill",
+      "Identifier": "EGKB",
+      "Contractions": [],
+      "AtisFrequency": 35675,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "21",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 21. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "03",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 03. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    },
+    {
+      "Name": "Southend",
+      "Identifier": "EGMC",
+      "Contractions": [],
+      "AtisFrequency": 36050,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "Alternate",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] ARRIVAL RUNWAY 23, DEPARTURE RUNWAY 05. AIRFIELD INFORMATION, TRANSITION LEVEL [TL], [WX]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+        },
+        {
+          "Name": "23",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 23. AIRFIELD INFORMATION, TRANSITION LEVEL [TL], [WX]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+        },
+        {
+          "Name": "05",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 05. AIRFIELD INFORMATION, TRANSITION LEVEL [TL], [WX]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    }
+  ]
+}

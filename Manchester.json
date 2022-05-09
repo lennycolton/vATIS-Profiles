@@ -1,0 +1,123 @@
+{
+  "Name": "Manchester",
+  "Composites": [
+    {
+      "Name": "Manchester",
+      "Identifier": "EGCC",
+      "Contractions": [
+        {
+          "String": "H24",
+          "Spoken": "TWENTY FOUR HOURS"
+        },
+        {
+          "String": "23R",
+          "Spoken": "TWO THREE RIGHT"
+        },
+        {
+          "String": "23L",
+          "Spoken": "TWO THREE LEFT"
+        },
+        {
+          "String": "05L",
+          "Spoken": "ZERO FIVE LEFT"
+        },
+        {
+          "String": "05R",
+          "Spoken": "ZERO FIVE RIGHT"
+        }
+      ],
+      "AtisFrequency": 21975,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "23R",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 23R. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ILLUMINATED RUNWAY HOLDING POINTS IN OPERATION H24, PILOTS MUST NOT CROSS ILLUMINATED STOP BARS. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "23 Duals",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY 23R, DEPARTURE RUNWAY 23L. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ILLUMINATED RUNWAY HOLDING POINTS IN OPERATION H24, PILOTS MUST NOT CROSS ILLUMINATED STOP BARS. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "05L",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 05L. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ILLUMINATED RUNWAY HOLDING POINTS IN OPERATION H24, PILOTS MUST NOT CROSS ILLUMINATED STOP BARS. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "05 Duals",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY 05R, DEPARTURE RUNWAY 05L. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ILLUMINATED RUNWAY HOLDING POINTS IN OPERATION H24, PILOTS MUST NOT CROSS ILLUMINATED STOP BARS. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "23L",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 23L. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ILLUMINATED RUNWAY HOLDING POINTS IN OPERATION H24, PILOTS MUST NOT CROSS ILLUMINATED STOP BARS. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "05R",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 05R. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ILLUMINATED RUNWAY HOLDING POINTS IN OPERATION H24, PILOTS MUST NOT CROSS ILLUMINATED STOP BARS. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 55
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 60
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 65
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 70
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 75
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 80
+        }
+      ]
+    }
+  ]
+}

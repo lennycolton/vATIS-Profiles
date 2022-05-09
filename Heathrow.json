@@ -1,0 +1,146 @@
+{
+  "Name": "Heathrow",
+  "Composites": [
+    {
+      "Name": "Heathrow",
+      "Identifier": "EGLL",
+      "Contractions": [
+        {
+          "String": "27L",
+          "Spoken": "TWO SEVEN LEFT"
+        },
+        {
+          "String": "27R",
+          "Spoken": "TWO SEVEN RIGHT"
+        },
+        {
+          "String": "09L",
+          "Spoken": "ZERO NINER LEFT"
+        },
+        {
+          "String": "09R",
+          "Spoken": "ZERO NINER RIGHT"
+        }
+      ],
+      "AtisFrequency": 28075,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "DEFAULT",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "HEATHROW INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY 27L, DEPARTURE RUNWAY 27R. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. PILOTS ARE REMINDED THAT READBACK OF ATC INSTRUCTIONS & CLEARANCES IS MANDATORY. PILOTS ARE TO EXERCISE CAUTION WHEN MANOEUVRING IN THE RUNWAY HOLDING AREAS AS WING-TIP CLEARANCE IS NOT ASSURED. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    },
+    {
+      "Name": "Northolt",
+      "Identifier": "EGWU",
+      "Contractions": [],
+      "AtisFrequency": 25125,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "DEFAULT",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "NORTHOLT INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    }
+  ]
+}

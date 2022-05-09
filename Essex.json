@@ -1,0 +1,186 @@
+{
+  "Name": "Essex",
+  "Composites": [
+    {
+      "Name": "Stansted",
+      "Identifier": "EGSS",
+      "Contractions": [],
+      "AtisFrequency": 27175,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "22",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "STANSTED INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 22. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "04",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "STANSTED INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 04. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    },
+    {
+      "Name": "Luton",
+      "Identifier": "EGGW",
+      "Contractions": [],
+      "AtisFrequency": 20575,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "25",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 25. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "07",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 07. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    },
+    {
+      "Name": "Cambridge",
+      "Identifier": "EGSC",
+      "Contractions": [
+        {
+          "String": "&",
+          "Spoken": "AND"
+        }
+      ],
+      "AtisFrequency": 34600,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "23",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "CAMBRIDGE ARRIVAL & DEPARTURE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 23. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "05",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "CAMBRIDGE ARRIVAL & DEPARTURE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 05. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

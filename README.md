@@ -1,4 +1,4 @@
-# vATIS-Profiles
+# vATIS Profiles
 A collection of vATIS Profiles for UK controllers. All civilian airports inside controlled airspace are included, as well as a few others. The profiles are organised for ease of use by approach units, so the following profiles contain more than one airport:
 
 - Belfast - EGAA, EGAC

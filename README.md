@@ -6,7 +6,7 @@ A collection of vATIS Profiles for UK controllers. All civilian airports inside 
 - Essex - EGSS, EGGW, EGSC
 - Heathrow - EGLL, EGWU
 - Northumberland - EGNT, EGNV
-- Severn - EGFF, EGGD
+- Severn - EGFF, EGGD, EGSY
 - Thames - EGLC, EGKB, EGMC
 - Warton - EGNH, EGNO
 

@@ -142,11 +142,18 @@
       "IDSEndpoint": null,
       "Presets": [
         {
-          "Name": "DEFAULT",
+          "Name": "25",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
           "Template": "NORTHOLT INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "07",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "NORTHOLT INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [],

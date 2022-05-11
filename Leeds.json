@@ -25,14 +25,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 32. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. THRESHOLD ELEVATION 662 FEET."
+          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 32. [TL]. [WX]. THRESHOLD ELEVATION 662 FEET."
         },
         {
           "Name": "14",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 14. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. THRESHOLD ELEVATION 662 FEET."
+          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 14. [TL]. [WX]. THRESHOLD ELEVATION 662 FEET."
         }
       ],
       "AirportConditionDefinitions": [],

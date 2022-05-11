@@ -25,14 +25,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. THRESHOLD ELEVATION 239 FEET."
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [TL]. [WX]. THRESHOLD ELEVATION 239 FEET."
         },
         {
           "Name": "07",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. TRANSITION LEVEL FLIGHT LEVEL [TL]. [WX]. THRESHOLD ELEVATION 239 FEET."
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [WX]. THRESHOLD ELEVATION 239 FEET."
         }
       ],
       "AirportConditionDefinitions": [],

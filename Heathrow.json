@@ -151,14 +151,92 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NORTHOLT INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [TL]. [WX]. NO TOWER SERVICES AVAILABLE. ALL DEPARTURES REQUIRE A CLEARANCE AND RELEASE FROM HEATHROW DIRECTOR 119.725. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "NORTHOLT INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [TL]. [WX]. NO TOWER SERVICES AVAILABLE. APPROACH SERVICES FROM HEATHROW DIRECTOR 119.725. ALL DEPARTURES REQUIRE A CLEARANCE AND RELEASE FROM HEATHROW DIRECTOR 119.725. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "07",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NORTHOLT INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [WX]. NO TOWER SERVICES AVAILABLE. ALL DEPARTURES REQUIRE A CLEARANCE AND RELEASE FROM HEATHROW DIRECTOR 119.725. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "NORTHOLT INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [WX]. NO TOWER SERVICES AVAILABLE. APPROACH SERVICES FROM HEATHROW DIRECTOR 119.725. ALL DEPARTURES REQUIRE A CLEARANCE AND RELEASE FROM HEATHROW DIRECTOR 119.725. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 85
+        },
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 90
+        }
+      ]
+    },
+    {
+      "Name": "City",
+      "Identifier": "EGLC",
+      "Contractions": [
+        {
+          "String": "119.725",
+          "Spoken": "ONE ONE NINER DECIMAL SEVEN TWO FIVE"
+        },
+        {
+          "String": "122.800",
+          "Spoken": "ONE TWO TWO DECIMAL EIGHT"
+        }
+      ],
+      "AtisFrequency": 36350,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "27",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 27. [TL]. [WX]. NO TOWER OR APPROACH SERVICES AVAILABLE. IFR DEPARTURES MAINTAIN 3000FT AND CONTACT HEATHROW DIRECTOR 119.725 WHEN AIRBORNE. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW."
+        },
+        {
+          "Name": "09",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 09.[TL]. [WX]. NO ATC SERVICES AVAILABLE. ALL TRAFFIC MONITOR UNICOM 122.800."
         }
       ],
       "AirportConditionDefinitions": [],

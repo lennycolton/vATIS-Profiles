@@ -133,45 +133,44 @@
           "Ordinal": 6,
           "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
           "Enabled": false
-        }
-      ],
-      "NotamDefinitions": [
+        },
         {
-          "Ordinal": 1,
+          "Ordinal": 7,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.975 WHEN READY FOR START.",
           "Enabled": false
         },
         {
-          "Ordinal": 2,
+          "Ordinal": 8,
           "Text": "FOR START CLEARANCE CONTACT DELIVERY ON 121.975.",
           "Enabled": false
         },
         {
-          "Ordinal": 3,
+          "Ordinal": 9,
           "Text": "DELIVERY IS CLOSED, FOR START CLEARANCE CONTACT GROUND ON 121.700.",
           "Enabled": false
         },
         {
-          "Ordinal": 4,
+          "Ordinal": 10,
           "Text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.500.",
           "Enabled": false
         },
         {
-          "Ordinal": 5,
+          "Ordinal": 11,
           "Text": "START & TAXI CONTACT DIRECTOR ON 119.725.",
           "Enabled": true
         },
         {
-          "Ordinal": 6,
+          "Ordinal": 12,
           "Text": "PILOTS SHOULD EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL.",
           "Enabled": false
         },
         {
-          "Ordinal": 7,
+          "Ordinal": 13,
           "Text": "PILOTS SHOULD EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL.",
           "Enabled": false
         }
       ],
+      "NotamDefinitions": [],
       "TransitionLevels": [
         {
           "Low": 1032,
@@ -274,15 +273,14 @@
           "Ordinal": 6,
           "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
           "Enabled": false
-        }
-      ],
-      "NotamDefinitions": [
+        },
         {
-          "Ordinal": 1,
+          "Ordinal": 7,
           "Text": "NO TOWER SERVICES AVAILABLE. APPROACH SERVICES FROM HEATHROW DIRECTOR 119.725. ALL DEPARTURES REQUIRE A CLEARANCE AND RELEASE BEFORE DEPARTURE FROM HEATHROW DIRECTOR 119.725.",
           "Enabled": true
         }
       ],
+      "NotamDefinitions": [],
       "TransitionLevels": [
         {
           "Low": 1032,
@@ -349,14 +347,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 27. [TL]. [WX]. [ARPT_COND]. [NOTAMS]."
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 27. [TL]. [WX]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "09",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 09. [TL]. [WX]. [ARPT_COND]. [NOTAMS]."
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 09. [TL]. [WX]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
@@ -389,25 +387,19 @@
           "Ordinal": 6,
           "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
           "Enabled": false
-        }
-      ],
-      "NotamDefinitions": [
+        },
         {
-          "Ordinal": 1,
-          "Text": "NO TOWER OR APPROACH SERVICES AVAILABLE. IFR DEPARTURES MAINTAIN 3000FT AND CONTACT HEATHROW DIRECTOR 119.725 WHEN AIRBORNE. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW.",
+          "Ordinal": 7,
+          "Text": "NO TOWER OR APPROACH SERVICES AVAILABLE. IFR DEPARTURES MAINTAIN 3000FT AND CONTACT HEATHROW DIRECTOR 119.725 WHEN AIRBORNE.",
           "Enabled": true
         },
         {
-          "Ordinal": 2,
+          "Ordinal": 8,
           "Text": "NO ATC SERVICES AVAILABLE. ALL TRAFFIC MONITOR UNICOM 122.800.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 3,
-          "Text": "ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT.",
           "Enabled": false
         }
       ],
+      "NotamDefinitions": [],
       "TransitionLevels": [
         {
           "Low": 1032,

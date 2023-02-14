@@ -68,7 +68,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     },
     {
       "Name": "Luton",
@@ -137,7 +145,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     },
     {
       "Name": "Cambridge",
@@ -180,7 +196,21 @@
       ],
       "AirportConditionDefinitions": [],
       "NotamDefinitions": [],
-      "TransitionLevels": []
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     }
   ]
 }

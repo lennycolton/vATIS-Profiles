@@ -202,7 +202,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     },
     {
       "Name": "Northolt",
@@ -312,7 +320,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     },
     {
       "Name": "City",
@@ -431,7 +447,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     }
   ]
 }

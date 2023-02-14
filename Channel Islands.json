@@ -68,7 +68,15 @@
           "High": 958,
           "Altitude": 80
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     },
     {
       "Name": "Guernsey",
@@ -137,7 +145,15 @@
           "High": 958,
           "Altitude": 80
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     }
   ]
 }

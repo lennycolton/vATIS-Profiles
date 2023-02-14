@@ -68,7 +68,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     },
     {
       "Name": "Biggin Hill",
@@ -137,7 +145,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     },
     {
       "Name": "Southend",
@@ -213,7 +229,15 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     }
   ]
 }

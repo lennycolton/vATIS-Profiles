@@ -117,7 +117,9 @@
           "High": 958,
           "Altitude": 80
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     }
   ]
 }

@@ -68,7 +68,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "Luton",
@@ -137,7 +139,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "Cambridge",
@@ -180,7 +184,9 @@
       ],
       "AirportConditionDefinitions": [],
       "NotamDefinitions": [],
-      "TransitionLevels": []
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     }
   ]
 }

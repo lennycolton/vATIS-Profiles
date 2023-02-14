@@ -37,7 +37,9 @@
       ],
       "AirportConditionDefinitions": [],
       "NotamDefinitions": [],
-      "TransitionLevels": []
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "Bournemouth",
@@ -75,7 +77,9 @@
       ],
       "AirportConditionDefinitions": [],
       "NotamDefinitions": [],
-      "TransitionLevels": []
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     }
   ]
 }

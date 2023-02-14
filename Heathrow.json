@@ -202,7 +202,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "Northolt",
@@ -312,7 +314,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "City",
@@ -431,7 +435,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     }
   ]
 }

@@ -89,7 +89,9 @@
       ],
       "AirportConditionDefinitions": [],
       "NotamDefinitions": [],
-      "TransitionLevels": []
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     }
   ]
 }

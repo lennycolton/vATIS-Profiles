@@ -51,7 +51,9 @@
       ],
       "AirportConditionDefinitions": [],
       "NotamDefinitions": [],
-      "TransitionLevels": []
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "Warton",
@@ -89,7 +91,9 @@
       ],
       "AirportConditionDefinitions": [],
       "NotamDefinitions": [],
-      "TransitionLevels": []
+      "TransitionLevels": [],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     }
   ]
 }

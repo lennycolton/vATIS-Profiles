@@ -68,7 +68,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "Biggin Hill",
@@ -137,7 +139,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     },
     {
       "Name": "Southend",
@@ -213,7 +217,9 @@
           "High": 958,
           "Altitude": 90
         }
-      ]
+      ],
+      "UseFaaFormat": false,
+      "UseTransitionLevelPrefix": false
     }
   ]
 }

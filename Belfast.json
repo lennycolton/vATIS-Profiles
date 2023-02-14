@@ -91,7 +91,13 @@
       "NotamDefinitions": [],
       "TransitionLevels": [],
       "UseFaaFormat": false,
-      "UseTransitionLevelPrefix": false
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": true,
+      "UseDecimalTerminology": true
     }
   ]
 }

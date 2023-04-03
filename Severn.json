@@ -108,7 +108,6 @@
         }
       ],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,
@@ -159,7 +158,6 @@
       "NotamDefinitions": [],
       "TransitionLevels": [],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,

@@ -1,112 +1,281 @@
 {
-  "Name": "Gatwick",
-  "Composites": [
+  "name": "Gatwick",
+  "id": "08cdca7d-a372-4dad-8670-03958c53679a",
+  "composites": [
     {
-      "Name": "Gatwick",
-      "Identifier": "EGKK",
-      "Contractions": [
+      "id": "321df079-e820-4c92-b9f3-12d81b96da4d",
+      "name": "Gatwick",
+      "identifier": "EGKK",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "frequency": 136525000,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Male"
+      },
+      "idsEndpoint": "",
+      "useNotamPrefix": false,
+      "useTransitionLevelPrefix": true,
+      "useDecimalTerminology": true,
+      "airportConditionsBeforeFreeText": false,
+      "notamsBeforeFreeText": false,
+      "presets": [
         {
-          "String": "26L",
-          "Spoken": "TWO SIX LEFT"
+          "id": "e5b081fb-eeb5-4f1e-8463-c70af04762a2",
+          "name": "26L",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26L. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "String": "26R",
-          "Spoken": "TWO SIX RIGHT"
+          "id": "e164b4fe-ca9a-45d7-8fef-92d0a66970ac",
+          "name": "08R",
+          "notams": "",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE RWY 08R. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "String": "08L",
-          "Spoken": "ZERO EIGHT LEFT"
+          "id": "875f07ee-c92e-4566-b2f5-b7caa486f1c2",
+          "name": "26R",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26R. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "String": "08R",
-          "Spoken": "ZERO EIGHT RIGHT"
+          "id": "afac3a1b-73d3-406a-b665-2cf23a492392",
+          "name": "08L",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08L. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
-      "AtisFrequency": 36525,
-      "ObservationTime": {
-        "Enabled": false,
-        "Time": 0
-      },
-      "MagneticVariation": {
-        "Enabled": false,
-        "MagneticDegrees": 0
-      },
-      "AtisVoice": {
-        "UseTextToSpeech": true,
-        "Voice": "UK Male"
-      },
-      "IDSEndpoint": null,
-      "Presets": [
+      "contractions": [
         {
-          "Name": "26L",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26L. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "string": "26L",
+          "spoken": "TWO SIX LEFT"
         },
         {
-          "Name": "08R",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08R. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "string": "26R",
+          "spoken": "TWO SIX RIGHT"
         },
         {
-          "Name": "26R",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26R. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "string": "08L",
+          "spoken": "ZERO EIGHT LEFT"
         },
         {
-          "Name": "08L",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08L. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "string": "08R",
+          "spoken": "ZERO EIGHT RIGHT"
         }
       ],
-      "AirportConditionDefinitions": [],
-      "NotamDefinitions": [],
-      "TransitionLevels": [
+      "airportConditionDefinitions": [],
+      "notamDefinitions": [],
+      "transitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 65
+          "low": 1032,
+          "high": 1049,
+          "altitude": 65
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 70
+          "low": 1013,
+          "high": 1031,
+          "altitude": 70
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 75
+          "low": 995,
+          "high": 1012,
+          "altitude": 75
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 80
+          "low": 977,
+          "high": 994,
+          "altitude": 80
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 85
+          "low": 959,
+          "high": 976,
+          "altitude": 85
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 90
+          "low": 940,
+          "high": 958,
+          "altitude": 90
         }
       ],
-      "UseFaaFormat": false,
-      "UseNotamPrefix": false,
-      "UseTransitionLevelPrefix": true,
-      "UseMetricUnits": false,
-      "UseSurfaceWindPrefix": true,
-      "UseVisibilitySuffix": true,
-      "UseDecimalTerminology": true
+      "atisFormat": {
+        "observationTime": {
+          "standardUpdateTime": 0,
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": true,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibility": "visibility 10 kilometers or more",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "weatherTypes": {
+            "DZ": "drizzle",
+            "RA": "rain",
+            "SN": "snow",
+            "SG": "snow grains",
+            "IC": "ice crystals",
+            "PL": "ice pellets",
+            "GR": "hail",
+            "GS": "small hail",
+            "UP": "unknown precipitation",
+            "BR": "mist",
+            "FG": "fog",
+            "FU": "smoke",
+            "VA": "volcanic ash",
+            "DU": "widespread dust",
+            "SA": "sand",
+            "HZ": "haze",
+            "PY": "spray",
+            "PO": "well developed dust, sand whirls",
+            "SQ": "squalls",
+            "FC": "funnel cloud tornado waterspout",
+            "SS": "sandstorm",
+            "DS": "dust storm"
+          },
+          "weatherDescriptors": {
+            "PR": "partial",
+            "BC": "patches",
+            "MI": "shallow",
+            "DR": "low drifting",
+            "BL": "blowing",
+            "SH": "showers",
+            "TS": "thunderstorm",
+            "FZ": "freezing"
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "types": {
+            "FEW": "few clouds at {altitude}",
+            "SCT": "{altitude} scattered {convective}",
+            "BKN": "{altitude} broken {convective}",
+            "OVC": "{altitude} overcast {convective}",
+            "VV": "indefinite ceiling {altitude}",
+            "NSC": "no significant clouds",
+            "NCD": "no clouds detected",
+            "CLR": "sky clear below one-two thousand",
+            "SKC": "sky clear"
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "pronounceLeadingZero": true,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "pronounceLeadingZero": true,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "Q{altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT.",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          }
+        }
+      }
     }
   ]
 }

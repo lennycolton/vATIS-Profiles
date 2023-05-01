@@ -145,7 +145,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind}",
-              "voice": "WIND CALM"
+              "voice": "SURFACE WIND CALM"
             }
           }
         },

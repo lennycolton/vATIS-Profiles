@@ -38,7 +38,7 @@
           "Spoken": "ONE ONE NINER DECIMAL SEVEN TWO FIVE"
         }
       ],
-      "AtisFrequency": 28075,
+      "AtisFrequency": 28080,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -136,12 +136,12 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.975 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.980 WHEN READY FOR START.",
           "Enabled": false
         },
         {
           "Ordinal": 8,
-          "Text": "FOR START CLEARANCE CONTACT DELIVERY ON 121.975.",
+          "Text": "FOR START CLEARANCE CONTACT DELIVERY ON 121.980.",
           "Enabled": false
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "Ordinal": 10,
-          "Text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.500.",
+          "Text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.505.",
           "Enabled": false
         },
         {
@@ -341,7 +341,7 @@
           "Spoken": "ONE TWO TWO DECIMAL EIGHT"
         }
       ],
-      "AtisFrequency": 36350,
+      "AtisFrequency": 36355,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0

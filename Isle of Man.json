@@ -19,6 +19,8 @@
         "Voice": "UK Male"
       },
       "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
       "Presets": [
         {
           "Name": "26",
@@ -247,8 +249,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
           }
         },
         "transitionLevel": {

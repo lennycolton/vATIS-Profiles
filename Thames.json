@@ -19,6 +19,8 @@
         "Voice": "UK Male"
       },
       "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
       "Presets": [
         {
           "Name": "27",
@@ -233,8 +235,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
           }
         },
         "transitionLevel": {
@@ -302,6 +304,8 @@
         "Voice": "UK Male"
       },
       "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
       "Presets": [
         {
           "Name": "21",
@@ -516,8 +520,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
           }
         },
         "transitionLevel": {
@@ -585,6 +589,8 @@
         "Voice": "UK Male"
       },
       "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
       "Presets": [
         {
           "Name": "Alternate",
@@ -806,8 +812,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
           }
         },
         "transitionLevel": {

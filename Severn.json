@@ -244,32 +244,32 @@
             {
               "low": 1032,
               "high": 1049,
-              "altitude": 55
+              "altitude": 65
             },
             {
-              "low": 1013,
+              "low": 1014,
               "high": 1031,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 995,
-              "high": 1012,
-              "altitude": 65
+              "high": 1013,
+              "altitude": 75
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 70
+              "altitude": 80
             },
             {
               "low": 959,
               "high": 976,
-              "altitude": 75
+              "altitude": 85
             },
             {
               "low": 940,
               "high": 958,
-              "altitude": 80
+              "altitude": 90
             }
           ],
           "template": {
@@ -529,32 +529,32 @@
             {
               "low": 1032,
               "high": 1049,
-              "altitude": 55
+              "altitude": 65
             },
             {
-              "low": 1013,
+              "low": 1014,
               "high": 1031,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 995,
-              "high": 1012,
-              "altitude": 65
+              "high": 1013,
+              "altitude": 75
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 70
+              "altitude": 80
             },
             {
               "low": 959,
               "high": 976,
-              "altitude": 75
+              "altitude": 85
             },
             {
               "low": 940,
               "high": 958,
-              "altitude": 80
+              "altitude": 90
             }
           ],
           "template": {
@@ -602,14 +602,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [TL]. [NOTAMS] [WX]. [ARPT_COND] . ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [NOTAMS] [WX]. [ARPT_COND] . ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "07",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [NOTAMS] [WX]. [ARPT_COND] . ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [NOTAMS] [WX]. [ARPT_COND] . ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "contractions": [],
@@ -815,38 +815,7 @@
           }
         },
         "transitionLevel": {
-          "values": [
-            {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 55
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 60
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 65
-            },
-            {
-              "low": 977,
-              "high": 994,
-              "altitude": 70
-            },
-            {
-              "low": 959,
-              "high": 976,
-              "altitude": 75
-            },
-            {
-              "low": 940,
-              "high": 958,
-              "altitude": 80
-            }
-          ],
+          "values": [],
           "template": {
             "text": "TRANSITION LEVEL {trl}",
             "voice": "TRANSITION LEVEL {trl}"

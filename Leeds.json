@@ -243,32 +243,32 @@
           "values": [
             {
               "low": 1032,
-              "high": 1049,
+              "high": 1050,
               "altitude": 55
             },
             {
-              "low": 1013,
+              "low": 1014,
               "high": 1031,
               "altitude": 60
             },
             {
-              "low": 995,
-              "high": 1012,
+              "low": 996,
+              "high": 1013,
               "altitude": 65
             },
             {
-              "low": 977,
-              "high": 994,
+              "low": 978,
+              "high": 995,
               "altitude": 70
             },
             {
-              "low": 959,
-              "high": 976,
+              "low": 960,
+              "high": 977,
               "altitude": 75
             },
             {
-              "low": 940,
-              "high": 958,
+              "low": 943,
+              "high": 959,
               "altitude": 80
             }
           ],

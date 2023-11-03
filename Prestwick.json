@@ -27,14 +27,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 30. [TL]. [NOTAMS] [WX]. [ARPT_COND] "
+          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 30. [NOTAMS] [WX]. [ARPT_COND] "
         },
         {
           "Name": "12",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 12. [TL]. [NOTAMS] [WX]. [ARPT_COND] "
+          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 12. [NOTAMS] [WX]. [ARPT_COND] "
         }
       ],
       "contractions": [],

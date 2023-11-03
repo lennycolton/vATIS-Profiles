@@ -244,32 +244,32 @@
             {
               "low": 1032,
               "high": 1049,
-              "altitude": 55
+              "altitude": 65
             },
             {
               "low": 1013,
               "high": 1031,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 65
+              "altitude": 75
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 70
+              "altitude": 80
             },
             {
               "low": 959,
               "high": 976,
-              "altitude": 75
+              "altitude": 85
             },
             {
               "low": 940,
               "high": 958,
-              "altitude": 80
+              "altitude": 90
             }
           ],
           "template": {
@@ -528,7 +528,7 @@
           "values": [
             {
               "low": 1032,
-              "high": 1049,
+              "high": 1050,
               "altitude": 55
             },
             {
@@ -597,21 +597,21 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] ARRIVAL RUNWAY 23, DEPARTURE RUNWAY 05. AIRFIELD INFORMATION, [TL]. [NOTAMS] [WX]. [ARPT_COND] . ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] ARRIVAL RUNWAY 23, DEPARTURE RUNWAY 05. AIRFIELD INFORMATION,. [NOTAMS] [WX]. [ARPT_COND] . ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
         },
         {
           "Name": "23",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 23. AIRFIELD INFORMATION, [TL]. [NOTAMS] [WX]. [ARPT_COND] . ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 23. AIRFIELD INFORMATION,. [NOTAMS] [WX]. [ARPT_COND] . ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
         },
         {
           "Name": "05",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 05. AIRFIELD INFORMATION, [TL]. [NOTAMS] [WX]. [ARPT_COND] . ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 05. AIRFIELD INFORMATION,. [NOTAMS] [WX]. [ARPT_COND] . ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
         }
       ],
       "contractions": [],

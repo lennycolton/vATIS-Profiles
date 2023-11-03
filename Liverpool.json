@@ -242,6 +242,11 @@
         "transitionLevel": {
           "values": [
             {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 50
+            },
+            {
               "low": 1032,
               "high": 1049,
               "altitude": 55

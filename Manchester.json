@@ -11,7 +11,7 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 121975000,
+      "frequency": 121980000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female"
@@ -295,6 +295,11 @@
         },
         "transitionLevel": {
           "values": [
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 50
+            },
             {
               "low": 1032,
               "high": 1049,

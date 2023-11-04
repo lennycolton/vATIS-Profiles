@@ -4,7 +4,11 @@
     {
       "Name": "Newcastle",
       "Identifier": "EGNT",
-      "Contractions": [],
+      "contractions": [
+        {
+        "String": "LVPS",
+        "Spoken": "L V PEES"
+        }],
       "AtisFrequency": 18380,
       "ObservationTime": {
         "Enabled": false,
@@ -37,8 +41,58 @@
           "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [NOTAMS] [WX]. [ARPT_COND]. THRESHOLD ELEVATION 239 FEET."
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.730 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.730.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 119.705.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 11,
+            "Text": "PDC AVAILABLE, LOGON EGNT",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {
@@ -295,7 +349,11 @@
     {
       "Name": "Teesside",
       "Identifier": "EGNV",
-      "Contractions": [],
+      "contractions": [
+        {
+        "String": "LVPS",
+        "Spoken": "L V PEES"
+        }],
       "AtisFrequency": 32380,
       "ObservationTime": {
         "Enabled": false,
@@ -328,8 +386,53 @@
           "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 05. [TL]. [NOTAMS] [WX]. [ARPT_COND]  ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 119.805 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 119.805.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 9,
+            "Text": "PDC AVAILABLE, LOGON EGNV",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {

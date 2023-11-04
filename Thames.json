@@ -4,7 +4,11 @@
     {
       "Name": "City",
       "Identifier": "EGLC",
-      "Contractions": [],
+      "contractions": [
+        {
+        "String": "LVPS",
+        "Spoken": "L V PEES"
+        }],
       "AtisFrequency": 36355,
       "ObservationTime": {
         "Enabled": false,
@@ -37,8 +41,58 @@
           "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 09. [TL]. [NOTAMS] [WX]. [ARPT_COND]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.830 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.830.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.080.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 11,
+            "Text": "PDC AVAILABLE, LOGON EGLC",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {
@@ -289,7 +343,11 @@
     {
       "Name": "Biggin Hill",
       "Identifier": "EGKB",
-      "Contractions": [],
+      "contractions": [
+        {
+        "String": "LVPS",
+        "Spoken": "L V PEES"
+        }],
       "AtisFrequency": 35680,
       "ObservationTime": {
         "Enabled": false,
@@ -322,8 +380,53 @@
           "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 03. [TL]. [NOTAMS] [WX]. [ARPT_COND] . ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.805 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 134.805.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 9,
+            "Text": "PDC AVAILABLE, LOGON EGKB",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {
@@ -574,7 +677,11 @@
     {
       "Name": "Southend",
       "Identifier": "EGMC",
-      "Contractions": [],
+      "contractions": [
+        {
+        "String": "LVPS",
+        "Spoken": "L V PEES"
+        }],
       "AtisFrequency": 36055,
       "ObservationTime": {
         "Enabled": false,
@@ -614,8 +721,53 @@
           "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 05. AIRFIELD INFORMATION,. [NOTAMS] [WX]. [ARPT_COND] . ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 127.730 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 127.730.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 11,
+            "Text": "PDC AVAILABLE, LOGON EGMC",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {

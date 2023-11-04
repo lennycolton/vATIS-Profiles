@@ -4,7 +4,11 @@
     {
       "Name": "Prestwick",
       "Identifier": "EGPK",
-      "Contractions": [],
+      "contractions": [
+        {
+        "String": "LVPS",
+        "Spoken": "L V PEES"
+        }],
       "AtisFrequency": 21130,
       "ObservationTime": {
         "Enabled": false,
@@ -37,8 +41,53 @@
           "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 12. [NOTAMS] [WX]. [ARPT_COND] "
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.150 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 118.150.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 9,
+            "Text": "PDC AVAILABLE, LOGON EGPK",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {

@@ -4,7 +4,11 @@
     {
       "Name": "Glasgow",
       "Identifier": "EGPF",
-      "Contractions": [],
+      "contractions": [
+        {
+        "String": "LVPS",
+        "Spoken": "L V PEES"
+        }],
       "AtisFrequency": 29575,
       "ObservationTime": {
         "Enabled": false,
@@ -37,8 +41,58 @@
           "Template": "GLASGOW INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 05. [TL].  [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.705 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.705.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.805.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 11,
+            "Text": "PDC AVAILABLE, LOGON EGPF",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {

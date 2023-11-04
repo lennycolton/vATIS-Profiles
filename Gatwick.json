@@ -75,7 +75,63 @@
           "spoken": "ZERO EIGHT RIGHT"
         }
       ],
-      "airportConditionDefinitions": [],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT DELIVERY ON 121.955.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "DELIVERY IS CLOSED, ATC CONTINUES WITH GROUND ON 121.805.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 124.230.",
+          "Enabled": false
+        },
+        {
+            "Ordinal": 11,
+            "Text": "PDC AVAILABLE, LOGON EGKK",
+            "Enabled": false
+        }
+      ],
       "notamDefinitions": [],
       "transitionLevels": [
         {

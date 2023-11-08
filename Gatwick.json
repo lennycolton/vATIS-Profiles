@@ -26,7 +26,7 @@
         {
           "id": "e5b081fb-eeb5-4f1e-8463-c70af04762a2",
           "name": "26L",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26L. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS] [ARPT_COND]",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26L. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -35,7 +35,7 @@
           "id": "e164b4fe-ca9a-45d7-8fef-92d0a66970ac",
           "name": "08R",
           "notams": "",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE RWY 08R. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS] [ARPT_COND]",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE RWY 08R. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -43,7 +43,7 @@
         {
           "id": "875f07ee-c92e-4566-b2f5-b7caa486f1c2",
           "name": "26R",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26R. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS] [ARPT_COND]",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26R. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -51,7 +51,7 @@
         {
           "id": "afac3a1b-73d3-406a-b665-2cf23a492392",
           "name": "08L",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08L. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [NOTAMS] [ARPT_COND]",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08L. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }

@@ -31,14 +31,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 27. [TL]. [NOTAMS] [WX]. [ARPT_COND]"
+          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 27. [TL]. [WX]. [ARPT_COND] [NOTAMS]"
         },
         {
           "Name": "09",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 09. [TL]. [NOTAMS] [WX]. [ARPT_COND]"
+          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 09. [TL]. [WX]. [ARPT_COND] [NOTAMS]"
         }
       ],
       "AirportConditionDefinitions": [

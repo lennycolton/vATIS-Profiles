@@ -31,14 +31,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 32. [TL]. [NOTAMS] [WX]. [ARPT_COND]  THRESHOLD ELEVATION 662 FEET."
+          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 32. [TL]. [WX]. [ARPT_COND] [NOTAMS]  THRESHOLD ELEVATION 662 FEET."
         },
         {
           "Name": "14",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 14. [TL]. [NOTAMS] [WX]. [ARPT_COND]  THRESHOLD ELEVATION 662 FEET."
+          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 14. [TL]. [WX]. [ARPT_COND] [NOTAMS]  THRESHOLD ELEVATION 662 FEET."
         }
       ],
       "AirportConditionDefinitions": [

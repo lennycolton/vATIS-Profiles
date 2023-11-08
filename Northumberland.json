@@ -31,14 +31,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [TL]. [NOTAMS] [WX]. [ARPT_COND]. THRESHOLD ELEVATION 239 FEET."
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 239 FEET."
         },
         {
           "Name": "07",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [NOTAMS] [WX]. [ARPT_COND]. THRESHOLD ELEVATION 239 FEET."
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 239 FEET."
         }
       ],
       "AirportConditionDefinitions": [
@@ -376,14 +376,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 23. [TL]. [NOTAMS] [WX]. [ARPT_COND]  ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
+          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 23. [TL]. [WX]. [ARPT_COND] [NOTAMS] ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
         },
         {
           "Name": "05",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 05. [TL]. [NOTAMS] [WX]. [ARPT_COND]  ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
+          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 05. [TL]. [WX]. [ARPT_COND] [NOTAMS] ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
         }
       ],
       "AirportConditionDefinitions": [

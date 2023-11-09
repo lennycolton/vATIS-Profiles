@@ -1,7 +1,7 @@
 Summary of changed dated 09/11/23
-updated Heatrow to use ONH rather than atlimeter
-Corrected the order that the notams appear in some profiles
-added preset airport conditions and the correct way to say LVPS:
+updated Heathrow to use ONH rather than altimeter  
+Corrected the order that the notams appear in some profiles  
+added preset airport conditions and the correct way to say LVPS:  
 - LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY
 - INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY
 - LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME
@@ -15,10 +15,10 @@ added preset airport conditions and the correct way to say LVPS:
 
 
 
-Summary of changes dated 03/11/23
-Updates Frequencies to use the new .833 or vatsim equivalent
-Added airport condition and notams option
-Updated transition levels from vmats/crib sheets
-Changed from "Altimeter XXX" to "QNH XXX"
-Removed the duplicate reference to Atis letter at the end
+Summary of changes dated 03/11/23  
+Updates Frequencies to use the new .833 or vatsim equivalent  
+Added airport condition and notams option  
+Updated transition levels from vmats/crib sheets  
+Changed from "Altimeter XXX" to "QNH XXX"  
+Removed the duplicate reference to Atis letter at the end  
 

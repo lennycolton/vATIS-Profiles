@@ -203,6 +203,15 @@
           "Altitude": 90
         }
       ],
+      "atisFormat":{
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter}",
+            "voice": "QNH {altimeter}"
+          }
+        }
+      },
       "UseFaaFormat": false,
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
@@ -320,6 +329,15 @@
           "Altitude": 90
         }
       ],
+      "atisFormat":{
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter}",
+            "voice": "QNH {altimeter}"
+          }
+        }
+      },
       "UseFaaFormat": false,
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
@@ -446,6 +464,15 @@
           "Altitude": 90
         }
       ],
+      "atisFormat":{
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter}",
+            "voice": "QNH {altimeter}"
+          }
+        }
+      },
       "UseFaaFormat": false,
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,

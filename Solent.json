@@ -84,7 +84,7 @@
         },
         {
             "Ordinal": 9,
-            "Text": "PDC AVAILABLE, LOGON EGHI",
+            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGHI",
             "Enabled": false
         }
       ],
@@ -428,7 +428,7 @@
         },
         {
             "Ordinal": 10,
-            "Text": "PDC AVAILABLE, LOGON EGHH",
+            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGHH",
             "Enabled": false
         }
       ],

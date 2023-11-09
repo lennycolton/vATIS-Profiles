@@ -103,7 +103,7 @@
         },
         {
             "Ordinal": 10,
-            "Text": "PDC AVAILABLE, LOGON EGAA",
+            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAA",
             "Enabled": false
         }
       ],
@@ -439,7 +439,7 @@
         },
         {
             "Ordinal": 11,
-            "Text": "PDC AVAILABLE, LOGON EGAC",
+            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAC",
             "Enabled": false
         }
       ],

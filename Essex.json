@@ -94,7 +94,7 @@
         },
         {
             "Ordinal": 11,
-            "Text": "PDC AVAILABLE, LOGON EGSS",
+            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSS",
             "Enabled": false
         }
       ],
@@ -438,7 +438,7 @@
         },
         {
             "Ordinal": 11,
-            "Text": "PDC AVAILABLE, LOGON EGGW",
+            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGGW",
             "Enabled": false
         }
       ],
@@ -812,7 +812,7 @@
         },
         {
             "Ordinal": 11,
-            "Text": "PDC AVAILABLE, LOGON EGSC",
+            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSC",
             "Enabled": false
         }
       ],
